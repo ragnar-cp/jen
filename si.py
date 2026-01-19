@@ -1,5 +1,5 @@
-p=2000
-r=10
-t=1
+p=int(input("Enter principal: ")
+r=float(input("Enter rate: ")
+t=int(input("Enter time in years: ")
 si=(p*r*t)/100
 print(f"the simple interest is: {si}")
